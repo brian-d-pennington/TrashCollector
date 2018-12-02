@@ -8,11 +8,11 @@ using TrashCollector.Models;
 
 namespace TrashCollector.Controllers
 {
-    public class RolesController : Controller
+    public class RoleController : Controller
     {
         public ApplicationDbContext db;
 
-        public RolesController()
+        public RoleController()
         {
             db = new ApplicationDbContext();
         }
